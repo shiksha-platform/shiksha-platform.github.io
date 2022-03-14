@@ -1,14 +1,14 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://hasura.io',
+    siteUrl: 'https://shikshaplatform.io/',
     gaTrackingId: null,
     trailingSlash: false,
   },
   header: {
     logo: '/static/shiksha-logo.png',
     logoLink: 'https://shikshaplatform.io/',
-    title: "<a href='https://shikshaplatform.io/'>Shiksha</a>",
+    title: "",
     githubUrl: 'https://github.com/shiksha-platform/backend',
     helpUrl: '',
     tweetText: '',
@@ -30,17 +30,16 @@ const config = {
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [{ text: 'Shiksha Platform', link: 'https://shikshaplatform.io/' }],
     frontline: false,
     ignoreIndex: true,
-    title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+    title: "Shiksha Platform",
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'Shiksha Platform',
+    description: 'Shiksha Platform',
     ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
+    docsLocation: 'https://github.com/shiksha-platform/shiksha-platform.github.io/tree/gatsby-source/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
