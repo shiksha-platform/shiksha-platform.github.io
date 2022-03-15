@@ -11,6 +11,7 @@ The adapter interfaces allow any deployer to implement logic to connect to the b
 ```typescript
 
 interface IAttendance {
+    attendanceId: string;
     schoolId: string;
     userId: string;
     groupId: string;
