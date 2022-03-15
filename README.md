@@ -1,5 +1,41 @@
-# Shiksha Project Documentation
+# Website
 
-- The documentation is built using the gatsby gitbook starter package - https://github.com/hasura/gatsby-gitbook-starter
-- To make changes to the documentation, edit the files in the `content` folder in the `gatsby-source` branch.
-- Any changes pushed to this branch will be automaticalyl built using the Github Actions and will be deployed to https://shiksha-platform.github.io/
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
+### Installation
+
+```
+$ yarn
+```
+
+### Local Development
+
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
