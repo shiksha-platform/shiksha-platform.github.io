@@ -26,7 +26,7 @@ npm i lerna -g
 npm i yarn -g
 ```
 * Fork the repository
-![Fork Repo](/static/img/fork.png)
+![Fork Repo](/img/fork.png)
 
 * Clone git repository 
 ```
