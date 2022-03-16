@@ -3,8 +3,6 @@ title: "Folder Structure"
 ---
 
 
-
-
 Below is the folder structure for front end application
 
 ```shell
@@ -12,9 +10,24 @@ Below is the folder structure for front end application
 /packages/common-lib
 /packages/attendance
 /packages/teachers-app
-/apis/attendanceApis.ts
 ...
 
 ```
+![Folder Structure](/img/frontend-dev/folder-1.png)
 
+## Module Folder Structure
+
+```shell
+/packages/attendance/src/components
+/packages/attendance/src/pages
+/packages/attendance/src/services
+packages/attendance/craco.config.js
+packages/attendance/modulefederation.config.js
+packages/attendance/package.json
+...
+
+```
+```components``` - Add presentation components to this folder.
+```pages``` - Add navigation page components to this folder.
+```services``` - Non presentation classes e.g. Utility, Backend API client classes.
 
