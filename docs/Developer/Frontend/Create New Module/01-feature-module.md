@@ -31,6 +31,8 @@ cp -R module-template packages/feature-module-1
 }
 ```
 * Update ```packages/[module-name]/craco.config.js``` and assign a port for dev environment.
+
+Make sure the port does not conflict with other module. Refer port entries in ```/packages/teacher-app/public/modules.json``` or verify the port is not used in any other moodule's ```craco.config.js``` file
 ```
 module.exports = {
   devServer: {

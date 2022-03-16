@@ -52,3 +52,11 @@ lerna run build --scope=@shiksha/common-lib
 yarn start
 ```
 Browse - http://localhost:4000
+
+* Run standalone module in dev environment
+```
+lerna run  start --scope=[module-name]
+// e.g.  to run attendance module
+lerna run  start --scope=attendance
+```
+Browse - http://localhost:[module port number]
