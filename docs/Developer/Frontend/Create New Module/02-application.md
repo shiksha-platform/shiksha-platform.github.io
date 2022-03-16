@@ -61,3 +61,9 @@ const FeaturePage1Component = React.lazy(() => import("featureModule1/FeaturePag
 
 ```
 * It is important to enclose the remote component within ```<React.Suspense>```
+
+## Important Notes:
+If ```craco.config.js```, ```modulefederation.config.js``` is modified, application need to be restarted  
+```
+yarn start
+```

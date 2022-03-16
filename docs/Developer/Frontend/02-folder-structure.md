@@ -31,3 +31,8 @@ packages/attendance/package.json
 ```pages``` - Add navigation page components to this folder.
 ```services``` - Non presentation classes e.g. Utility, Backend API client classes.
 
+## Important Notes:
+If ```craco.config.js```, ```modulefederation.config.js``` is modified, application need to be restarted  
+```
+yarn start
+```
