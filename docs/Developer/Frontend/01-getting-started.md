@@ -25,15 +25,24 @@ npm i lerna -g
 ```
 npm i yarn -g
 ```
-* Fork/Clone git repository 
+* Fork the repository
+![Fork Repo](/static/img/fork.png)
+
+* Clone git repository 
 ```
 git clone https://github.com/shiksha-platform/frontend-modulefederashstion.git
-
 ```
+
+* Move to the directory
+```
+cd frontend-modulefederation
+```
+
 * Install dependencies
 ```
 yarn install
 ```
+
 * Build @shiksha/common-lib
 ```
 lerna run build --scope=@shiksha/common-lib
