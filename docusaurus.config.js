@@ -44,7 +44,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Shiksha',
+        title: '',
         logo: {
           alt: 'Shiksha Logo',
           src: 'img/logo.svg',
